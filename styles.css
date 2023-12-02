@@ -1,0 +1,40 @@
+.mesas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .mesa {
+    border: 1px solid #fd0000;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  body {
+    background-color: rgb(240, 255, 188); /* Amarelo (#FFD700) */
+  }
+.mesa h2 {
+    color: #333; /* Cor do texto */
+    background-color: #FFD700; /* Fundo amarelo (#FFD700) */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    text-align: center; /* Alinhamento central do texto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  }
+  
